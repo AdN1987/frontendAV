@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logoap{
+  width: 250px;
+}
+
+img{
+  width: 50px;
+}
+
+.redes{
+  margin-right: 20px;
+}
+
+#whatsapp{
+  margin-right: 40px;
+}
+
+a{
+  margin: 10px;
+}
+
+.btn{
+  width: 150px;
+}
+

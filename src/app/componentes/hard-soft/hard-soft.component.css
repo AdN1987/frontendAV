@@ -1,0 +1,29 @@
+.row{
+  background-color: #1e2326;
+}
+
+h1{
+  color: #00ffff;
+  text-align: center;
+  padding: 50px;
+}
+
+h2{
+  color: #00ffff;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+#soft{
+  margin-top: 200px;
+
+}
+
+circle{
+  width: 80px;
+}
+@media (min-width: 767px) and (max-width: 988px){
+  #tee{
+    margin-top: -25px;
+  }
+}
