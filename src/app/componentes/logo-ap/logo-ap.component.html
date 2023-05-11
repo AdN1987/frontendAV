@@ -1,20 +1,14 @@
 <div class="row">
   <div class="container">
     <div class="logo">
-
       <img src="../../../assets/argprograma.png" id="logoap">
-
     </div>
-
     <div class="redes">
       <a href="https://www.facebook.com/VillaAdriaNN/"> <img src="../../../assets/facebook2.png" id="facebook"></a>
-      <a href=""> <img src="../../../assets/instagram2.png" id="instagram"></a>
-      <a href=""> <img src="../../../assets/twitter2.png" id="twitter"></a>
-      <a href=""> <img src="../../../assets/telegram2.png" id="telegram"></a>
-      <a href=""> <img src="../../../assets/whatsapp2.png" id="whatsapp"></a>
-      <button type="button" class="btn btn-outline-success btn-lg">INGRESO</button>
+      <a href="https://instagram.com/adnvilla1987/"> <img src="../../../assets/instagram2.png" id="instagram"></a>
+      <a href="https://wa.me/+542215454674?text=buenos días Adrian"> <img src="../../../assets/whatsapp2.png" id="whatsapp"></a>
+      <button type="button" class="btn btn-outline-success btn-lg" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+      <button type="button" class="btn btn-outline-success btn-lg" (click)="onLogOut()" *ngIf="isLogged">CERRAR SECION</button>
     </div>
-
   </div>
-
 </div>

@@ -1,0 +1,21 @@
+.row{
+  padding: 40px;
+  padding-top: 160px;
+  background-color: #1e2326;
+}
+
+#newboton{
+  margin-left: -30px;
+}
+#titulo{
+  color: #00ffff;
+}
+
+
+h1,h3{
+  color: aliceblue;
+}
+
+tbody{
+  border-color: #1e2326;
+}

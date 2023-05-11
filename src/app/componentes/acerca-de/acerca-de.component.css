@@ -1,6 +1,5 @@
 .row{
   padding: 20px;
-
 }
 
 div{
@@ -10,148 +9,43 @@ div{
 
 }
 
-@media (min-width: 993px){
-/*FOTO DE PERFIL*/
+tbody{
+  border-color: #1e2326;
+}
 
-  #fotoperfil{
-    position: absolute;
-    width: 15%;
-    left: 13%;
-    top: 400px;
-
-  }
-  /*NOMBRE*/
-  #nombre{
-    color: #00ffff;
-    font-size: 45px;
-    font-weight: 700;
-    margin-top: 120px;
-    margin-right: 10px;
-    margin-left: -20%;
-
-  }
-  #fsd{
-    font-size: 30px;
-    margin-left: -20%;
-  }
-
-  /*acerca de mi */
-#descripcion{
-  text-align: left;
-  font-size: 25px;
-  padding-left: 30px;
-  padding-right: 30px;
-  color: rgb(255, 255, 255);
-  margin-top: 0px;
-  margin-right: 10px;
-  margin-left: -25%;
-  }
+#perfil{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 
 #dmititulo{
   color: #00ffff;
-  margin-top: 40px;
-  margin-right: 10px;
-  margin-left: -25%;
-  }
-}
-
-@media (max-width: 993px){
-  #fotoperfil{
-    position: absolute;
-    width: 25%;
-    left: 5%;
-    top: 475px;
-
-  }
-
-  #nombre{
-    color: #00ffff;
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 120px;
-    margin-right: 10px;
-    margin-left: -20%;
-
-  }
-
-  #fsd{
-    font-size: 20px;
-    margin-left: -20%;
-  }
-
-  /*acerca de mi */
-
-  #dmititulo{
-    color: #00ffff;
-    margin-top: 40px;
-    margin-right: 10px;
-    margin-left: -25%;
-  }
-
-#descripcion{
-  text-align: left;
-  font-size: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
-  color: rgb(255, 255, 255);
-  margin-top: 0px;
-  margin-right: 10px;
-  margin-left: -25%;
-}
-
-
-
-}
-
-@media (max-width: 767px){
-  #fotoperfil{
-    position: absolute;
-    width: 45%;
-    left: 30%;
-    top: 400px;
-
-  }
-
-  #nombre{
-    color: #00ffff;
-    font-size: 70px;
-    font-weight: 700;
-    margin-top: 120px;
-    margin-right: 10px;
-    margin-left: 0%;
-
-  }
-
-  #fsd{
-    font-size: 30px;
-    margin-left: 0%;
-  }
-
-  /*acerca de mi */
-
-  #dmititulo{
-    color: #00ffff;
-    font-size: 40px;
-    margin-top: 40px;
-    margin-right: 10px;
-    margin-left: 0%;
-  }
-
-#descripcion{
-  text-align: center;
-  font-size: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  color: rgb(255, 255, 255);
-  margin-top: 0px;
+  font-size: 40px;
   margin-right: 10px;
   margin-left: 0%;
 }
 
+#descripcion{
+text-align: center;
+font-size: 20px;
+padding-left: 30px;
+padding-right: 30px;
+color: rgb(255, 255, 255);
+margin-right: 10px;
+margin-left: 0%;
 }
 
+#nombre{
+  color: #00ffff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-right: 10px;
+  margin-left: -20%;
 
-
-
-
+}
+#fsd{
+  font-size: 30px;
+  margin-left: -20%;
+}
 

@@ -1,19 +1,22 @@
-<div class="container-fluis">
   <div class="row">
+    <button tipe="button" class="btn btn-outline-info" routerLink="/editacercade/1" *ngIf="isLogged">
+      Editar persona
+    </button>
+    <div class="col-lg-2" id="perfil"></div>
+    <div class="col-lg-2">
+    </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <img src="../../../assets/hero.png" class="img-fluid" id="fotoperfil">
+      <img src={{persona.img}} class="img-fluid" id="fotoperfil">
     </div>
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6">
-      <p id="nombre">ADRIAN VILLA</p>
+      <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
       <P id="fsd">full stack developer JR</P>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-6">
       <span>
         <h1 id="dmititulo">ACERCA DE MI</h1>
-        <P id="descripcion">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores numquam rerum deleniti, sunt commodi deserunt magnam quos! A et dolores ex pariatur quam temporibus, sapiente dolorem voluptatibus hic itaque quidem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat omnis maiores incidunt, distinctio fuga aperiam, debitis odio voluptatum consequatur atque amet eum magnam! Beatae quasi distinctio similique vel magni!
-        </P>
+        <P id="descripcion">{{persona.descripcion}}</P>
       </span>
     </div>
   </div>
-</div>
+

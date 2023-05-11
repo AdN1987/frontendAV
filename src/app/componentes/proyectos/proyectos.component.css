@@ -1,0 +1,30 @@
+.row{
+  padding: 40px;
+  padding-top: 160px;
+  background-color: #1e2326;
+}
+
+h1,h3,h4,p{
+
+  color: #fff;
+
+}
+#titulo,#dmititulo{
+  color: #00ffff;
+}
+
+tbody{
+  border-color: #1e2326;
+}
+
+#newboton{
+  margin-left: -30px;
+}
+
+h3{
+  color: coral;
+}
+
+#cajon{
+  margin-top: 30px;
+}
