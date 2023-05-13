@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { persona } from 'src/app/model/persona.model';
+import { ImageService } from 'src/app/service/image.service';
 import { PersonaService } from 'src/app/service/persona.service';
 
 @Component({
@@ -13,7 +14,8 @@ export class EditAcercaDeComponent implements OnInit{
 
   constructor(private personaService: PersonaService,
     private activatedRouter : ActivatedRoute,
-    private router: Router) {}
+    private router: Router,
+    public ImageService: ImageService) {}
 
   ngOnInit(): void {
     const id = this.activatedRouter.snapshot.params['id'];
@@ -41,7 +43,7 @@ export class EditAcercaDeComponent implements OnInit{
   }
 
   uploadImage($event:any){
-
+    this.ImageService.uploadImage($event)
   }
 
 }
